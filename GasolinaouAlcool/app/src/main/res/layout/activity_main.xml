@@ -44,9 +44,9 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="numberSigned"
+        android:inputType="numberDecimal"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/edtAlcool"
         android:layout_below="@+id/txtAlcool"
         android:layout_alignLeft="@+id/txtAlcool"
         android:layout_alignStart="@+id/txtAlcool"
@@ -58,9 +58,9 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/edtGasolina"
         android:layout_below="@+id/txtGasolina"
         android:layout_alignLeft="@+id/txtGasolina"
         android:layout_alignStart="@+id/txtGasolina"
@@ -73,24 +73,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/texto_botao_verificar"
-        android:id="@+id/button"
-        android:layout_below="@+id/editText"
+        android:id="@+id/btnVerificar"
+        android:layout_below="@+id/edtAlcool"
         android:layout_marginTop="25dp"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_alignEnd="@+id/editText2" />
+        android:layout_alignLeft="@+id/edtAlcool"
+        android:layout_alignStart="@+id/edtAlcool"
+        android:layout_alignRight="@+id/edtGasolina"
+        android:layout_alignEnd="@+id/edtGasolina" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/btnVerificar"
+        android:layout_alignLeft="@+id/btnVerificar"
+        android:layout_alignStart="@+id/btnVerificar"
         android:layout_marginTop="23dp"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button"
-        android:id="@+id/txtResultado" />
+        android:layout_alignRight="@+id/btnVerificar"
+        android:layout_alignEnd="@+id/btnVerificar"
+        android:id="@+id/txtResultado"
+        android:textColor="#415c00" />
 
 </RelativeLayout>
