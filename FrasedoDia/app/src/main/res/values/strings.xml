@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Frase do Dia</string>
+    <string name="action_settings">Settings</string>
+    <string name="texto_frase_dia">Nova Frase</string>
+
+    <string-array name="frases">
+        <item>Se você traçar metas absurdamente altas e falhar, seu fracasso será muito melhor que o sucesso de todos.</item>
+        <item>O sucesso normalmente vem para quem está ocupado demais para procurar por ele.</item>
+        <item>Se você não está disposto a arriscar, esteja disposto a uma vida comum.</item>
+    </string-array>
+
+</resources>
