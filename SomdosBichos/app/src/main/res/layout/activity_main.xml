@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.cursorandroid.somdosbichos.MainActivity"
+    android:background="#f5e9b9">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgLogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgDog"
+        android:layout_below="@+id/imgLogo"
+        android:layout_alignLeft="@+id/imgLogo"
+        android:layout_alignStart="@+id/imgLogo"
+        android:background="@drawable/cao" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgCat"
+        android:background="@drawable/gato"
+        android:layout_below="@+id/imgLogo"
+        android:layout_alignRight="@+id/imgLogo"
+        android:layout_alignEnd="@+id/imgLogo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgLion"
+        android:layout_below="@+id/imgDog"
+        android:layout_alignLeft="@+id/imgDog"
+        android:layout_alignStart="@+id/imgDog"
+        android:background="@drawable/leao" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgMonkey"
+        android:background="@drawable/macaco"
+        android:layout_below="@+id/imgCat"
+        android:layout_alignRight="@+id/imgCat"
+        android:layout_alignEnd="@+id/imgCat" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgSheep"
+        android:layout_below="@+id/imgMonkey"
+        android:layout_alignLeft="@+id/imgLion"
+        android:layout_alignStart="@+id/imgLion"
+        android:background="@drawable/ovelha" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgCow"
+        android:layout_alignTop="@+id/imgSheep"
+        android:layout_alignRight="@+id/imgMonkey"
+        android:layout_alignEnd="@+id/imgMonkey"
+        android:background="@drawable/vaca" />
+</RelativeLayout>
